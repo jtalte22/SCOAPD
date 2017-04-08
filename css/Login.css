@@ -1,0 +1,202 @@
+
+body{
+	background: -webkit-linear-gradient(
+		         top, white 0%, #E8EEFF 50%, #D7EEFF 100%) 
+	             no-repeat center center fixed;
+	background-size: cover;
+	font-size: 15px;
+    font-family: 'Fira', sans-serif;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+}
+
+header figure{
+	width: 80%;
+	height: 100px;
+	margin: 10px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+header figure img{
+   	width: 120px;
+	height: 100px;
+}
+
+.content_form{
+	background: rgba(240,238,234,0.0);
+	padding: 10px;
+    text-align: center;
+    color: #7F7E7C;
+}
+
+.content_form .icon{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	color: gray;
+    font-size: 25px;
+    top: 25px;
+    background: transparent;
+}
+
+
+.content_form #form1{
+	margin: 0 auto;
+}
+
+#icon_usuario:before{
+font-family: 'icomoon';
+content: "\e971" ;
+}
+
+#icon_pass:before{
+font-family: 'icomoon';
+content: "\e98f" ;
+}
+
+.content_form #icon_usuario{
+	width: 25px;
+	height: 25px;
+	position: relative;
+    font-size: 25px;
+    top: 25px;
+    background: transparent;
+}
+
+
+#icon_usuario:before{
+font-family: 'icomoon';
+content: "\e971" ;
+}
+
+.content_form input,
+.content_form textarea{
+    display: block;
+	border: none;
+	border-bottom:  2px solid gray;
+	margin-bottom: 30px;
+	padding: 5px;
+    text-align: center;
+    width: 96%;
+    background: transparent;
+
+}
+
+.content_form #name:focus{
+	border: none;
+	border-bottom:  2px solid black;
+}
+
+.content_form #pass:focus{
+	border-bottom:  2px solid black;
+}
+
+.content_form #accesar{
+background: #233D58;
+color: white;
+border: none;
+margin-top: 50px;
+font-weight: bolder;
+padding: 10px;
+}
+
+.content_form #accesar:hover{
+	background: #3A309E;
+}
+
+
+footer{
+	color: gray;
+	font-family: 'Arial';
+	font-size: 12px;
+	text-align: center;
+}
+
+@media screen and (min-width: 480px){
+body{
+	background: url('../img/inicio1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.content_form{
+	background: rgba(240,238,234,0.8);
+	width: 350px;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (min-width: 600px){
+body{
+	background: url('../img/inicio1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.content_form{
+	background: rgba(240,238,234,0.8);
+	width: 350px;
+    margin: 0 auto;
+}
+
+
+}
+
+@media screen and (min-width: 767px){
+body{
+	background: url('../img/inicio1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+.content_form{
+	background: rgba(240,238,234,0.8);
+	width: 350px;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (min-width: 950px){
+body{
+	background: url('../img/inicio1.png') no-repeat center center fixed;
+	background-size: cover;
+}
+.content_form{
+	background: rgba(240,238,234,0.8);
+	width: 350px;
+    margin: 0 auto;
+}
+
+
+}
+
+
+/*
+	background: url('inicio.jpg') no-repeat center center fixed;
+	background-size: cover;
+	filter: blur(5px);
+
+
+<h1>
+   <a href="inicio.html">Sonia Carretero</a>
+</h1>
+
+
+.back{
+	background-image: url('inicio.jpg');
+	width: 2000px;
+	height: 2000px;
+	filter: blur(10px);
+}
+
+
+*/
+
+
+
+
+
+

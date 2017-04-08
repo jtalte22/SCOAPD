@@ -1,0 +1,121 @@
+body{
+	font-size: 15px;
+    font-family: 'Fira', sans-serif;
+	position: relative;
+	background: #F5FFF7;
+}
+
+
+#BarraSuperior{
+	height: 5px;
+	background: red;
+	position: relative;
+}
+
+header form input{
+display: none;
+}
+
+header{
+	background: white;
+	padding: 10px;
+	box-shadow: 0px 0px 10px black;
+	height: 30px;
+	position: relative;
+}
+
+
+header figure{
+	width: 80px;
+	height: 50px;
+	position: relative;
+	left: 50%;
+	bottom: 80%;
+	background: transparent;
+}
+
+header figure img{
+	width: 80px;
+	height: 50px;
+}
+
+nav  #Menu{
+	width: 25px;
+	height: 25px;
+	background: pink;
+	position: relative;
+	top: -75px;
+
+}
+
+nav a #Menu:before{
+	font-family: 'icomoon';
+	content: "\eae2";
+	font-size: 20px;
+
+}
+
+
+nav ul{
+	display: none;
+}
+
+
+@media screen and (min-width: 480px){
+body{
+background: blue;
+}
+header figure{
+	left: 65%;
+	bottom: 80%;
+}
+
+}
+
+@media screen and (min-width: 600px){
+body{
+background: yellow;
+}
+header figure{
+	left: 80%;
+	bottom: 80%;
+}
+
+}
+
+@media screen and (min-width: 767px){
+body{
+background: purple;
+}
+header figure{
+	left: 85%;
+	bottom: 80%;
+}
+
+}
+
+@media screen and (min-width: 950px){
+body{
+background: green;
+}
+header figure{
+	left: 88%;
+	bottom: 80%;
+}
+
+}
+
+
+/* Los pixeles son los mismos del tamaño del header
+line-height: 50px;
+overflow: hideen;
+z-index: 999;
+cursor: pointer;
+
+
+
+
+list-style: none;
+
+
+text-decoration: none;
